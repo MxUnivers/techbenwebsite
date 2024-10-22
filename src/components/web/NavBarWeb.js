@@ -71,7 +71,7 @@ const NavBarWeb = () => {
                                     <Link to={`/${ROUTES.Blog}`}>Activités </Link>
                                 </li>
                                 <li class="submenu-direction">
-                                    <Link to="javascript:;">Contact </Link>
+                                    <Link to={`/${ROUTES.Contact}`}>Contact </Link>
                                 </li>
                             </ul>
                         </div>
