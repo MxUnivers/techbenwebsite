@@ -1,44 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { ROUTES } from '../../config/routing';
 
 const NavBarWeb = () => {
+    const  navigate  = useNavigate();
+    const  location  =  useLocation();
+
+
     return (
         <header class="site-header header-style-3 topbar-transparent mobile-sider-drawer-menu ">
 
-            {/* <div class="top-bar ">
-                <div class="container bg-light text-dark ">
-                    <div class="row">
-                        <div class="clearfix">
-                            <div class="wt-topbar-left">
-                                <ul class="list-unstyled e-p-bx pull-left">
-                                    <li><i class="fa fa-envelope"></i>mail@bitinvest.com</li>
-                                    <li><i class="fa fa-phone"></i>(654) 321-7654</li>
-                                </ul>
-                            </div>
-
-                            <div class="wt-topbar-right">
-                                <div class=" language-select pull-right">
-                                    <div class="dropdown">
-                                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">Language
-                                            <span class="caret"></span></button>
-                                        <ul class="dropdown-menu dropdown-menu-right">
-                                            <li><Link to="#"><img src="images/united-states.png" alt="" />English</Link></li>
-                                            <li><Link to="#"><img src="images/france.png" alt="" />French</Link></li>
-                                            <li><Link to="#"><img src="images/germany.png" alt="" />German</Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <ul class="list-unstyled e-p-bx pull-right">
-                                    <li><Link to="#" data-bs-toggle="modal" data-bs-target="#Login-form"><i class="fa fa-user"></i>Login</Link></li>
-                                    <li><Link to="#" data-bs-toggle="modal" data-bs-target="#Register-form"><i class="fa fa-sign-in"></i>Register</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
+           
 
             <div class="sticky-header main-bar-wraper ">
                 <div class="main-bar bg-dark">
@@ -58,19 +30,19 @@ const NavBarWeb = () => {
                         </button>
                         <div class="header-nav navbar-collapse collapse ">
                             <ul class=" nav navbar-nav">
-                                <li class="active">
+                                <li class={`${location.pathname ===`/`?"active":""}`}>
                                     <Link to="">Accueil</Link>
                                 </li>
-                                <li>
+                                <li class={`${location.pathname ===`/${ROUTES.Aboutus}`?"active":""}`}>
                                     <Link to={`/${ROUTES.Aboutus}`}>Présentation </Link>
                                 </li>
-                                <li>
+                                <li class={`${location.pathname ===`/${ROUTES.Services}`?"active":""}`}>
                                     <Link to={`/${ROUTES.Services}`}>Services </Link>
                                 </li>
-                                <li>
+                                <li class={`${location.pathname ===`/${ROUTES.Blog}`?"active":""}`}>
                                     <Link to={`/${ROUTES.Blog}`}>Activités </Link>
                                 </li>
-                                <li class="submenu-direction">
+                                <li  class={`${location.pathname ===`/${ROUTES.Contact}`?"active":""}`}>
                                     <Link to={`/${ROUTES.Contact}`}>Contact </Link>
                                 </li>
                             </ul>
