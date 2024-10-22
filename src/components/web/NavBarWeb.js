@@ -17,9 +17,9 @@ const NavBarWeb = () => {
                     <div class="container">
 
                         <div class="logo-header mostion">
-                            <Link to="index.html">
+                            <a href="/">
                                 <img src="logoApplication.png" style={{ height: "50px", width: "50px" }} width="50" height="67" alt="" />
-                            </Link>
+                            </a>
                         </div>
 
                         <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed">
@@ -31,7 +31,7 @@ const NavBarWeb = () => {
                         <div class="header-nav navbar-collapse collapse ">
                             <ul class=" nav navbar-nav">
                                 <li class={`${location.pathname ===`/`?"active":""}`}>
-                                    <Link to="">Accueil</Link>
+                                    <a href="/">Accueil</a>
                                 </li>
                                 <li class={`${location.pathname ===`/${ROUTES.Aboutus}`?"active":""}`}>
                                     <Link to={`/${ROUTES.Aboutus}`}>Présentation </Link>
