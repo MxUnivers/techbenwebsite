@@ -2,6 +2,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/web/HomePage';
 import LayoutWeb from './layout/LayoutWeb';
+import AboutUsPage from './pages/web/AboutUsPage';
+import { ROUTES } from './config/routing';
+import ServicePage from './pages/web/ServicePage';
+import BlogPage from './pages/web/BlogPage';
 
 function App() {
   return (
@@ -10,6 +14,9 @@ function App() {
         <Routes>
           <Route path='' element={<LayoutWeb />} >
            <Route path='' element={<HomePage/>} />
+           <Route path={`${ROUTES.Aboutus}`} element={<AboutUsPage/>} />
+           <Route path={`${ROUTES.Services}`} element={<ServicePage/>} />
+           <Route path={`${ROUTES.Blog}`} element={<BlogPage/>} />
           </Route>
         </Routes>
       </BrowserRouter>
