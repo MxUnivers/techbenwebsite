@@ -122,7 +122,7 @@ return (
                      ]' data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
                                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]" style={{ zIndex: "13", textTransform: "uppercase" }}>
-                                <a href="javascript:;" class="site-button slider-btn-left">Contact Us</a>
+                                <a href="javascript:;" class="site-button slider-btn-left bg-info">Contact</a>
                             </div>
 
                             <div class="tp-caption tp-resizeme" id="slide-100-layer-7"
@@ -221,7 +221,7 @@ return (
                                 style={{ zIndex: "13", whiteSpace: "normal", fontWeight: "700", color: "rgb(75, 57, 65)", borderWidth: "0px" }}>
 
                                 <div style={{ fontFamily: "Poppins, sans-serif", textTransform: "uppercase" }}>
-                                    <span class="text-white" style={{ paddingRight: "10px" }}>Bitcoin</span><span
+                                    <span class="text-white text-info" style={{ paddingRight: "10px" }}>Bitcoin</span><span
                                         class="site-text-primary">Invest</span>
                                 </div>
 
@@ -276,7 +276,7 @@ return (
                      ]' data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
                                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]" style={{ zIndex: "13", textTransform: "uppercase" }}>
-                                <a href="javascript:;" class="site-button slider-btn-left">Contact Us</a>
+                                <a href="javascript:;" class="site-button slider-btn-left bg-info">Contact</a>
                             </div>
 
                             <div class="tp-caption tp-resizeme" id="slide-101-layer-7"
@@ -464,7 +464,7 @@ return (
                      ]' data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
                                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]" style={{ zIndex: "13", textTransform: "uppercase" }}>
-                                <a href="javascript:;" class="site-button slider-btn-left">Contact Us</a>
+                                <a href="javascript:;" class="site-button slider-btn-left bg-info">Contact</a>
                             </div>
 
                             <div class="tp-caption tp-resizeme" id="slide-102-layer-7"

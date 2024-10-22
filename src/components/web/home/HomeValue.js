@@ -17,8 +17,8 @@ const HomeValueSection = () => {
                         
                         <div class="col-lg-3 col-md-12">
                             <div class="call-to-action-right">
-                                <a href="#" class="site-button-secondry bg-primary text-uppercase font-weight-600">
-                                    Read More 
+                                <a href="#" class="site-button-secondry bg-danger text-uppercase font-weight-600">
+                                    En savoir plus
                                 </a>
                             </div>
                         </div>
