@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeSectionContent = () => {
     return (
-        <div class="section-full  p-t80 p-b50 bg-full-height bg-repeat-x graph-slide-image" style="background-image:url(images/background/bg-1.jpg);">
+        <div class="section-full  p-t80 p-b50 bg-full-height bg-repeat-x graph-slide-image" style={{ backgroundImage: "url('images/background/bg-1.jpg')" }}>
 
             <div class="container">
 
@@ -14,10 +14,10 @@ const HomeSectionContent = () => {
                                 <p>Lorem Ipsum has been the industry{"'"}s standard dummy text ever since the 1500s, when an unknown printer took.</p>
                             </div>
                             <div class="currency-calculator sp-one">
-                                <div style="width: 100%;">
+                                <div style={{ width: "100%" }}>
                                     <crypto-converter-widget live="" shadow="" symbol="" fiat="united-states-dollar" crypto="bitcoin" amount="1" border-radius="0.60rem" background-color="#171f2c" decimal-places="2"><a href="https://cr.today/" rel="noopener">Converter Widget</a></crypto-converter-widget>
                                     {/*<a href="https://co-w.io/">co-w.io</a> */}
-                                    <script src="../gh/dejurin/crypto-converter-widget/dist/latest.min.js" async=""></script>
+                                    <script src="gh/dejurin/crypto-converter-widget/dist/latest.min.js" async=""></script>
                                 </div>
                             </div>
                         </div>
